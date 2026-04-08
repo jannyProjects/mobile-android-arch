@@ -86,6 +86,9 @@ cd mobile_app_android
 
 # Install on connected device/emulator
 ./gradlew installDebug
+
+# Run unit tests
+./gradlew testDebugUnitTest
 ```
 
 ### Build Variants

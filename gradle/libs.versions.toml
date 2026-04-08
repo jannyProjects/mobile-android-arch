@@ -34,6 +34,8 @@ kotlinxSerializationJson = "1.10.0"
 okhttpVer = "5.3.2"
 timberVer = "5.0.1"
 materialIconsExtended = "1.7.8"
+mockkVer = "1.14.2"
+turbineVer = "1.2.0"
 
 [libraries]
 androidx-core-ktx = { group = "androidx.core", name = "core-ktx", version.ref = "coreKtx" }
@@ -100,6 +102,11 @@ gradle-api = { group = "com.android.tools.build", name = "gradle-api", version.r
 json = { group = "org.json", name = "json", version.ref = "jsonVer" }
 mappie-api = { module = "tech.mappie:mappie-api", version.ref = "mappieApi" }
 timber = { group = "com.jakewharton.timber", name = "timber", version.ref = "timberVer" }
+
+### Testing
+mockk = { group = "io.mockk", name = "mockk", version.ref = "mockkVer" }
+kotlinx-coroutines-test = { group = "org.jetbrains.kotlinx", name = "kotlinx-coroutines-test", version.ref = "coroutinesVer" }
+turbine = { group = "app.cash.turbine", name = "turbine", version.ref = "turbineVer" }
 
 [plugins]
 mappie-api-plugin = { id = "tech.mappie.plugin", version.ref = "mappieApi" }

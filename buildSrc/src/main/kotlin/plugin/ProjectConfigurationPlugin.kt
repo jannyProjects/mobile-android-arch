@@ -20,7 +20,7 @@ class ProjectConfigurationPlugin : Plugin<Project> {
             }
 
             tasks.configureEach {
-                if (name.contains("Test")) {
+                if (name.contains("AndroidTest")) {
                     enabled = false
                 }
             }
