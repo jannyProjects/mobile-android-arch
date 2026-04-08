@@ -1,0 +1,3 @@
+package tech.framti.navigation
+
+interface BackNavigationResult

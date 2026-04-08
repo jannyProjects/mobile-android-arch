@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="activation_error_title">Activation error</string>
+    <string name="activation_error_subtitle">Cannot activate your card.</string>
+    <string name="general_error_title">Something went wrong</string>
+    <string name="general_error_subtitle">Please contact customer support.</string>
+    <string name="general_ok">OK</string>
+
+    <!-- MainView -->
+    <string name="main_view_generate_uuid">Generate new UUID</string>
+    <string name="main_view_scratch_card">Scratch card</string>
+    <string name="main_view_activate_card">Activate card</string>
+    <string name="main_view_deactivate_reset">Deactivate/reset</string>
+    <string name="main_view_generated_uuid_label">GENERATED UUID</string>
+    <string name="main_view_status_unscratched">UNSCRATCHED</string>
+    <string name="main_view_status_scratched">SCRATCHED</string>
+    <string name="main_view_status_activated">ACTIVATED</string>
+
+    <!-- ActivateView -->
+    <string name="activate_view_activate">Activate</string>
+</resources>
